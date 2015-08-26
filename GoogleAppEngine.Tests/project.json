@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "",
+  "authors": [ "Neil Rao" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "xunit": "2.1.0-*",
+    "xunit.runner.dnx": "2.1.0-*",
+    "GoogleAppEngine": "1.0.0-*"
+  },
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "LightMock": "1.0.0.5"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Collections": "4.0.10-beta-22816",
+        "System.Linq": "4.0.0-beta-22816",
+        "System.Threading": "4.0.10-beta-22816",
+        "Microsoft.CSharp": "4.0.0-beta-22816",
+        "LightMock.vNext": "1.0.1"
+      }
+    }
+  }
+}
