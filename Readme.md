@@ -1,7 +1,7 @@
 Google App Engine .NET (GAE.NET)
 ====================================
 
-This (unofficial) project brings Google App Engine to .NET in a way that is simple and familiar to .NET developers. This project currently supports:
+This (unofficial) project brings some Google App Engine services to .NET in a way that is simple and familiar to .NET developers. This project currently supports:
 
 * Google Datastore
 * Google Cloud Storage
